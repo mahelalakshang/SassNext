@@ -115,7 +115,7 @@ export const ChatContextProvider = ({ fileId, children }: Props) => {
       const decoder = new TextDecoder();
       let done = false;
 
-      // accumulated response
+      // accumulated responses
       let accResponse = "";
 
       while (!done) {
